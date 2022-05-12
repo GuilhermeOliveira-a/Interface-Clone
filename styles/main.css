@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+/*Declarando Variáveis em Css*/
+:root{
+    --branco:#ffffff;
+    --verdeClaro:#77bb44;
+    --verdeMédio:#2ca243;
+    --verdeEscuro:#107c10;
+    --preto:#000000;
+}
+
+/*Reset global*/
+*{
+    text-decoration: none;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: var(--preto);
+    color: var(--branco)
+}
+
+h2{
+    font-size: 1.7em;
+    color: var(--branco);
+    font-family: 'Amatic SC', cursive;
+}
+
+header{
+    background-color:#251515c0;
+    padding-top:1vh;
+    padding-bottom: 1vh;
+}
+
+header nav a{
+    font-size:medium;
+    margin-right: 15px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+header nav a:hover{
+    color: var(--verdeClaro)
+}
+
+header .container{
+    display:flex;
+    align-items: center;
+    justify-content:space-around;
+}
+
+/*Jogo Principal*/
+.titulo{
+    font-size: 3.0rem;
+    height:40%;
+    font-family: open sans;
+}
+.jogo-principal{
+    background:url(../img/Martha-Is-Dead.jpg);
+    height: 450px;
+    background-size: cover;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+}
+
+.jogo-principal .description{
+    margin-top: 2vh;
+    margin-bottom:2vh;
+}
