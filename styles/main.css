@@ -33,17 +33,19 @@ header{
     padding-bottom: 1vh;
 }
 
+/*Css dos links*/
 header nav a{
     font-size:medium;
     margin-right: 15px;
     color: #ffffff;
     text-decoration: none;
 }
-
+/*Css de quando clicar nos botões da navbar*/
 header nav a:hover{
     color: var(--verdeClaro)
 }
 
+/*Alinhando os links um do lado do outro*/
 header .container{
     display:flex;
     align-items: center;
@@ -53,11 +55,13 @@ header .container{
 /*Jogo Principal*/
 .titulo{
     font-size: 3.0rem;
-    height:40%;
+    height:30%;
     font-family: open sans;
 }
+/*Conteúdo da caixa principal*/
 .jogo-principal{
-    background:url(../img/Martha-Is-Dead.jpg);
+
+    background:url(../img/Martha-is-Dead.jpg);
     height: 450px;
     background-size: cover;
   
@@ -66,8 +70,30 @@ header .container{
     justify-content:center;
     align-items: flex-start;
 }
-
+/*Distanciamento*/
 .jogo-principal .description{
     margin-top: 2vh;
     margin-bottom:2vh;
+}
+/* Css dos botões da caixa principal*/
+.button{
+    color: #fff;
+    border: none;
+    background-color: rgba(0,0,0,.50);
+
+    padding: 15px 30px;
+    margin-right: 2vh;
+    font-size: 0.9em;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+/*Animação de quando clicar no botão*/
+.button:hover{
+    background-color:white;
+    color: black;
+}
+/*Espaçamento entre o ícone e o texto do botão*/
+.button i{
+    margin-right: 8px;
 }
