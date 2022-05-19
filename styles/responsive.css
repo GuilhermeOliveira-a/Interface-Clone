@@ -1,0 +1,24 @@
+/*Quando a tela for maior que 768px */
+@media screen and (max-width: 768px) {
+    header .container{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .button{
+        margin-top: 5px;
+        width: 240px;
+    }
+}
+
+@media screen and (min-width:1000px){
+    .description{
+        width: 50%;
+    }
+
+    .item{
+        width: 350px;
+    height: 450px;
+    padding-top: 15px;
+    }
+}

@@ -1,3 +1,4 @@
+//Configurações do carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:15,
