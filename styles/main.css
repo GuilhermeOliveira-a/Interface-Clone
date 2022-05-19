@@ -70,6 +70,7 @@ header .container{
     justify-content:center;
     align-items: flex-start;
 }
+
 /*Distanciamento*/
 .jogo-principal .description{
     margin-top: 2vh;
@@ -96,4 +97,19 @@ header .container{
 /*Espaçamento entre o ícone e o texto do botão*/
 .button i{
     margin-right: 8px;
+}
+
+/*Distanciamento do container*/
+.container{
+    margin-left: 3vh ;
+}
+
+.jogo-principal .container{
+    width: 70%;
+}
+
+.box-jogos{
+    height:100%;
+    width: 100%;
+    display: block;
 }
