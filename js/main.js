@@ -1,7 +1,7 @@
 //Configurações do carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
-    margin:15,
+    margin:5,
     nav:true,
     responsive:{
         0:{

@@ -17,8 +17,6 @@
     }
 
     .item{
-        width: 350px;
-    height: 450px;
-    padding-top: 15px;
+        padding-top: 5px;
     }
 }
